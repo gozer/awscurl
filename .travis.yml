@@ -16,4 +16,5 @@ install:
 script:
   - pep8 awscurl
   - python -m tests.test_make_request
+  - py.test
 
